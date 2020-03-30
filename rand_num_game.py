@@ -1,7 +1,7 @@
 
 from random import randint
 
-print("Hai Anching dakode kalna abachengna mo")
+print("\n\t(Computer)>> Hai Anching dakode kalna abachengna mo")
 
 def randy():
     start = 1
@@ -9,12 +9,12 @@ def randy():
     value = randint(start, end)
 
     # print(value)
-    print(f"Anga chanchienga number {start} aro {end} ni gisepo...")
+    print(f"\n\t(Computer)>> Anga chanchienga number {start} aro {end} ni gisepo...")
 
     guess = None
 
     while guess != value:
-        text = input("De Masieni number ko: ")
+        text = input("\n\t(Computer)>> De Na'a Masieni number ko: ")
         guess = int(text)
 
         if guess < value:
@@ -22,6 +22,6 @@ def randy():
         elif guess > value:
             print("Komikale.")
 
-    print("Congratulations! Nangni chanchia onga:", value)
-    print("Mitela! ia game ko kalanina ")
+    print("\n\t(Computer)>> Congratulations! Nangni chanchia onga:", value)
+    print("\n\t(Computer)> >Mitela! ia game ko kalanina ")
 
